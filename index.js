@@ -8,13 +8,13 @@ let pintoresRouter = require('./routes/pintor');
 
 const app = express();
 app.set('view engine', 'hbs');
-hbs.registerPartial(__dirname + '/views/partials');
+hbs.registerPartials(__dirname + '/views/partials');
 app.use(express.static(__dirname + '/public'));
 
 app.use('/', pintoresRouter);
 
 mongoose.Promise = global.Promise;
-const cadena = 'mongodb+srv://JorgeR3T:jorger3t@gonzalezjorge-tfgrh.mongodb.net/test?retryWrites=true&w=majority'
+const cadena = 'mongodb+srv://JorgeR3T:jorger3t@gonzalezjorge-tfgrh.mongodb.net/Examen?retryWrites=true&w=majority'
 mongoose.connect(cadena,{useNewUrlParser: true, useUnifiedTopology: true})
 .then(()=>{
     console.log('Conexion establecida');

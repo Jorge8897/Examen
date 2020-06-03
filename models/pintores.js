@@ -11,10 +11,6 @@ let pintoresSchema = new Schema({
         require : [true, 'Requerimos el nombre']
 
     },
-    estilo:{
-        type : String,
-        require : [true, 'Requerimos el estilo']
-    },
     corriente:{
         type : String,
         require : [true, 'Requerimos la corriente']
@@ -22,7 +18,7 @@ let pintoresSchema = new Schema({
     nacionalidad:{
         type : String,
     },
-    pintor:{
+    pintura:{
         type : String,
     }
 });
