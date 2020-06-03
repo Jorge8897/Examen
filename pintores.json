@@ -1,0 +1,32 @@
+[
+    {
+        "pintor":"Pablo Picasso",
+        "estilo":"cubismo",
+        "nacionalidad":"Espanola",
+        "fechas":"1881-1973"
+    },
+    {
+        "pintor":"Claude Monet",
+        "estilo":"impresionismo",
+        "nacionalidad":"francesa",
+        "fechas":"1840-1926"
+    },
+    {
+        "pintor":"Salvador Dalí",
+        "estilo":"surrealismo",
+        "nacionalidad":"Espanola",
+        "fechas":"1904-1989"
+    },
+    {
+        "pintor":"Diego Velázquez",
+        "estilo":"barroco",
+        "nacionalidad":"Espanola",
+        "fechas":"1599-1660"
+    },
+    {
+        "pintor":"Pierre-Auguste Renoir",
+        "estilo":"renacentita",
+        "nacionalidad":"francesa",
+        "fechas":"1841-1919"
+    }
+]
